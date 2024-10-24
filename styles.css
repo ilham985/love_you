@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("foto/akatsuki.jpg");
+  background-size: cover;
+}
+h1 {
+  color: #006064;
+}
+h2 {
+  color: #00796b;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #e822bd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th,
+td {
+  border: 1px solid #b2ebf2;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #b2dfdb;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #004d40;
+}
+.social-links a:hover {
+  text-decoration: underline;
+  color: #00796b;
+}
